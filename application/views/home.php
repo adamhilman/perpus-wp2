@@ -158,7 +158,7 @@
                         </li>
                         <li class="nav-item">
                             <a href="<?php echo base_url()?>welcome/logout" class="nav-link">
-                                <i class="nav-icon fas fa-tachometer-alt">
+                                <i class="nav-icon fas fa-sign-out-alt">
                                 </i>
                                 <p>Logout</p>
                             </a>
@@ -228,14 +228,13 @@
                             <!-- small box -->
                             <div class="small-box bg-danger">
                                 <div class="inner">
-                                    <h3>admin</h3>
+                                    <h3><?=$nama; ?></h3>
 
                                     <p>User Login</p>
                                 </div>
                                 <div class="icon">
                                     <i class="fas fa-user-cog"></i>
                                 </div>
-                                <a href="logout.php" class="small-box-footer">Logout <i class="fas fa-arrow-circle-right"></i></a>
                             </div>
                         </div>
                         <!-- ./col -->
@@ -252,7 +251,7 @@
         </div>
         <!-- /.content-wrapper -->
         <footer class="main-footer">
-            <strong>Ade Nugraha &copy; Desained by <a href="http://adminlte.io">AdminLTE.io</a>.</strong>
+            <strong>Adam Hilman F &copy; Desained by <a href="http://adminlte.io">AdminLTE.io</a>.</strong>
             All rights reserved.
             <div class="float-right d-none d-sm-inline-block">
                 <b>Version</b> 3.0.4

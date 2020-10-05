@@ -59,7 +59,7 @@
     <div class="login" style="padding-top:300px;">
       <!-- /.login-logo -->
       <div class="card-body login-card-body" style="border-radius:10px;">
-        <p class="login-box-msg">Sign in to start your session</p>
+        <p class="login-box-msg">Silahkan Login</p>
         <?php if (isset($_GET['pesan']) && $_GET['pesan'] == "error") { ?>
           <div class="alert" style="border:1px solid #ed0000;background-color:#ed0000;color:white">
             <strong style="color:yellow"><i class="fa fa-exclamation-triangle "></i> <b>Login failed!</b></strong><br>Invalid username or password

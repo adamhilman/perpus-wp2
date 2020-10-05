@@ -16,6 +16,7 @@ class Admin extends CI_Controller
         // $this->load->view('pages');
         $data['buku'] = 35;
         $data['mahasiswa'] = 147;
+        $data['nama'] = $this->session->userdata('nama');
 		$this->load->view('home', $data);
 	}
 }
